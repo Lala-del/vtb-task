@@ -1,0 +1,39 @@
+select {
+    text-align: center;
+    transition: all 0.8s;
+    padding:  5px;
+    background: #E05353;
+    color: white;
+    font-weight: 500;
+    font-size: 13px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    option{
+        padding: 3px 8px;
+        cursor: pointer;
+        transition: all  0.9s;
+        font-size: 12px;
+        color: #E05353;
+        background: white;
+        .selected {
+            background: #E05353;
+        }
+        &:hover {
+            background: white;
+            color: #E05353;
+        }
+    }
+}
+
+
+.valuta {
+    background: #2B8EF0;
+    color: white;
+    option {
+        color: #2B8EF0;
+    }
+}
+
+
+

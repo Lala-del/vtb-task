@@ -1,0 +1,74 @@
+@media screen and (max-width: 768px) {
+    .bars {
+        display: block!important;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform:translate(-100%, 75%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+}
+
+
+
+
+@media screen and (max-width: 900px){
+    .navigation #show-menu:checked ~ .menu-icon i::before{
+      content: "\f00d";
+    }
+    .navigation__links{
+      display: block;
+      position: fixed;
+      background: white;
+      color: black;
+      height: 100%;
+      width: 100%;
+      top: 137px;
+      left: 0px;
+      margin-left: 0;
+      max-width: 350px;
+      overflow-y: auto;
+      padding-bottom: 100px;
+      transition: all 0.3s ease;
+    }
+    .navigation #show-menu:checked ~ .navigation__links{
+      left: 0%;
+    }
+    .navigation__links li{
+      margin: 15px 20px;
+    }
+    .navigation__links li a,
+    .navigation__links li label{
+      line-height: 40px;
+      font-size: 20px;
+      display: block;
+      padding: 8px 18px;
+      cursor: pointer;
+    }
+    .navigation__links ul{
+      position: static;
+      opacity: 1;
+      visibility: visible;
+      background: none;
+      max-height: 0px;
+      overflow: hidden;
+    }
+    
+    .navigation__links ul li{
+      margin: 7px 20px;
+    }
+    .navigation__links ul li a{
+      font-size: 18px;
+      line-height: 30px;
+      border-radius: 5px!important;
+    }
+  }
+  
+  @media screen and (max-width: 400px){
+    .navigation{
+      padding: 0 10px;
+    }
+    
+  }
+

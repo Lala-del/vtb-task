@@ -1,0 +1,213 @@
+.posts-part {
+    padding: 100px 0px;
+    background: #F4F4F7;
+    .container {
+        background: white;
+        padding: 30px;
+        a {
+            // padding:100px 0px;
+            background: white;
+            img {
+                height: 42px;
+                width: 42px;
+                display: block;
+                margin: 0 auto;
+            }
+             h3{
+                 font-size: 14px;
+                 color: black;
+                 padding-top: 20px;
+             }
+             &:hover {
+                 text-decoration: none;
+             }
+        }
+        .cars-post {
+            padding: 0px 0px 0px 20px;
+        }
+        .car-content {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding: 17px;
+            border: 1px solid #DEDEDE;
+            margin-bottom: 20px;
+        }
+        .posts-header {
+            display: flex;
+            padding: 50px 10px;
+            .right-side {
+                margin-left: 13px;
+                h2 {
+                    color: #4DA6FF;
+                    font-size: 20px;
+                    font-weight: bold;
+                    letter-spacing: 1px;
+                    
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+            .left-side {
+                padding: 10px 15px;
+                background: #4DA6FF;
+                margin-right: 10px;
+                background: #4DA6FF;
+                margin-bottom: 6px;
+                border-radius: 5px;
+                .icon {
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+        }
+
+        .bottom {
+            margin-top: 10px;
+            button{
+                background: none;
+                border: none;
+                outline: none;
+                color: #ABABAB;
+                padding: 10px 10px 20px 10px;
+                margin-left: 23px;
+
+            }
+        }
+    }
+}
+
+.models-post{
+    height: 170px;
+    padding: 15px;
+    color: #4DA6FF;
+    background: #F4F4F7;
+    border: 1px solid #e0dede;
+    margin-bottom: 25px;
+    width: 24%;
+    margin-left: 10px;
+    transition: all 1s;
+    &:hover {
+        background: #4DA6FF;
+        color: white;
+        text-decoration: none;
+        .number-product{
+            color:white;
+        }
+    }
+    .model-title{
+        display: flex;
+        justify-content: space-between;
+        h2 {
+            font-size: 16px;
+            letter-spacing: 1px;
+            text-align: left;
+            line-height: 33px;
+            font-weight: 500;
+        }
+        i{
+            font-size: 22px;
+        }
+    }
+    .number-product{
+        margin-top: 47px;
+        font-weight: 400;
+        color: black;
+        transition: all 2s;
+    }
+}
+
+.top-info {
+    display: flex;
+    align-content: center;
+    padding: 50px 0px;
+    .right-info {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-content: space-between;
+        padding-left: 100px;
+        
+        h2{
+            font-size: 18px;
+            color: #4DA6FF;
+            font-weight: bold;
+            letter-spacing: 1px;
+            padding-bottom: 8px;
+        }
+        p{
+            letter-spacing: 0.3px;
+            font-size: 16px;
+            span{
+                font-weight: bold;
+                font-size: 14px;
+            }
+        }
+        .count {
+            margin-top: 38px;
+            margin-left: 56px;
+        }
+
+        .model-link {
+            margin-top: 65px;
+            margin-left: 56px;
+            a{
+                color: white;
+                font-size: 14px;
+                padding: 9px 14px;
+                background: #E05353;
+            }
+        }
+        
+    }
+    .left-info {
+        padding: 0px 20px 0px 0px;
+        img {
+            height: 50px;
+            width: 50px;
+        }
+        h5 {
+            text-align: center;
+            font-size: 16px;
+            padding-left: 10px;
+            
+        }
+        &:after {
+            content: "";
+            height: 100px;
+            width: 1px;
+            position: absolute;
+            top: 358px;
+            left: 365px;
+            background: #d6c8c8;
+        }
+    }
+}
+
+.model-car  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.models-car {
+    padding: 80px 0px;
+    background: #F4F4F7
+}
+
+.icon-back {
+    margin-top: 25px;
+    i{
+        color: grey;
+        margin-right: 20px;
+    }
+    button{
+        color: grey;
+        border: none;
+        background: transparent;
+        outline: none;
+    }
+}
